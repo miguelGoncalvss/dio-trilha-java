@@ -14,4 +14,19 @@ public class Variaveis {
     *
     * todos esses dados sao armazenados da Memory Stack - por isso o tamanho de cada um
     */
+
+    public static void main(String[] args) {
+        // exemplo de codigo das variaveis
+        byte idade = 12;
+        int ano = 2025;
+        short mes = 10;
+        long cpf = 387943256312312L; // usar o L para identificar valores do tipo Long
+
+        final double valorDePi = 3.1412343;
+        // nesta linha de codigo notamos que o final define se o valor sera constante - imutavel
+
+        System.out.println("Idade: " + valorDePi);
+
+
+    }
 }
