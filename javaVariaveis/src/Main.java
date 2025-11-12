@@ -15,7 +15,16 @@ public class Main{
 
     }
 
-    class bemVindo(velocidade v){
+    class bemVindo {
+
+        velocidade v;
+
+
+        public bemVindo(velocidade v) {
+            this.v = v; // "this.v" (o campo da classe) recebe "v" (o parâmetro)
+        }
+
+        // 3. O método agora usa o campo "v" que foi salvo
         String bemVin(){
             return "bem vindo" + v;
         }
